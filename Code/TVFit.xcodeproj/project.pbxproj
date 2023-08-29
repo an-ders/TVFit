@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56A57C7E26240EEE00A47A84 /* TS55.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C6C26240EEE00A47A84 /* TS55.usdz */; };
+		56A57C7F26240EEE00A47A84 /* TS80.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C6D26240EEE00A47A84 /* TS80.usdz */; };
+		56A57C8026240EEE00A47A84 /* TS40.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C6E26240EEE00A47A84 /* TS40.usdz */; };
+		56A57C8126240EEE00A47A84 /* WM60.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C6F26240EEE00A47A84 /* WM60.usdz */; };
+		56A57C8226240EEE00A47A84 /* WM65.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7026240EEE00A47A84 /* WM65.usdz */; };
+		56A57C8326240EEE00A47A84 /* WM55.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7126240EEE00A47A84 /* WM55.usdz */; };
+		56A57C8426240EEE00A47A84 /* WM80.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7226240EEE00A47A84 /* WM80.usdz */; };
+		56A57C8626240EEE00A47A84 /* TS70.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7426240EEE00A47A84 /* TS70.usdz */; };
+		56A57C8726240EEE00A47A84 /* WM43.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7526240EEE00A47A84 /* WM43.usdz */; };
+		56A57C8826240EEE00A47A84 /* TS65.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7626240EEE00A47A84 /* TS65.usdz */; };
+		56A57C8926240EEE00A47A84 /* TS50.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7726240EEE00A47A84 /* TS50.usdz */; };
+		56A57C8B26240EEE00A47A84 /* WM32.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7926240EEE00A47A84 /* WM32.usdz */; };
+		56A57C8C26240EEE00A47A84 /* WM70.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7A26240EEE00A47A84 /* WM70.usdz */; };
+		56A57C8D26240EEE00A47A84 /* TS60.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7B26240EEE00A47A84 /* TS60.usdz */; };
+		56A57C8E26240EEE00A47A84 /* WM40.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7C26240EEE00A47A84 /* WM40.usdz */; };
+		56A57C8F26240EEE00A47A84 /* WM50.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C7D26240EEE00A47A84 /* WM50.usdz */; };
+		56A57C9B2624E1C700A47A84 /* TS43.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C992624E1C700A47A84 /* TS43.usdz */; };
+		56A57C9C2624E1C700A47A84 /* TS32.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 56A57C9A2624E1C700A47A84 /* TS32.usdz */; };
+		56CD3DFB262158B2004CDD79 /* MenuHelperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD3DFA262158B2004CDD79 /* MenuHelperViews.swift */; };
+		56D9078B2620F8C100860ABF /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D9078A2620F8C100860ABF /* Controller.swift */; };
+		821AA94B26101BD2003FEEEF /* TVFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AA94A26101BD2003FEEEF /* TVFitApp.swift */; };
+		821AA94D26101BD2003FEEEF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AA94C26101BD2003FEEEF /* MenuView.swift */; };
+		821AA94F26101BD4003FEEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821AA94E26101BD4003FEEEF /* Assets.xcassets */; };
+		821AA95226101BD4003FEEEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821AA95126101BD4003FEEEF /* Preview Assets.xcassets */; };
+		821AA95D26101BD5003FEEEF /* TVFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AA95C26101BD5003FEEEF /* TVFitTests.swift */; };
+		821AA96826101BD5003FEEEF /* TVFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821AA96726101BD5003FEEEF /* TVFitUITests.swift */; };
+		821BF37E26152984001D865B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BF37D26152984001D865B /* Model.swift */; };
+		821BF38F26156405001D865B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821BF38E26156405001D865B /* Settings.swift */; };
+		822919B92617DBCB00C9660D /* FocusARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822919B82617DBCB00C9660D /* FocusARView.swift */; };
+		82374EB5261ECCD20001287E /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 82374EB4261ECCD20001287E /* FocusEntity */; };
+		82374ECA261EDA300001287E /* ManualTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82374EC9261EDA300001287E /* ManualTutorialView.swift */; };
+		82374ED2261EDA450001287E /* ManualARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82374ED1261EDA450001287E /* ManualARView.swift */; };
+		82374EDD261EDF9F0001287E /* TutorialHelperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82374EDC261EDF9F0001287E /* TutorialHelperViews.swift */; };
+		82374EE8261EE1050001287E /* ARHelperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82374EE7261EE1050001287E /* ARHelperViews.swift */; };
+		82374EFE261EE1E90001287E /* ARScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82374EFD261EE1E90001287E /* ARScreen.swift */; };
+		8247AA53261025A9001560CA /* AutoTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247AA52261025A9001560CA /* AutoTutorialView.swift */; };
+		8247AA75261296F9001560CA /* AutoARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8247AA74261296F9001560CA /* AutoARView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821AA95926101BD5003FEEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821AA93F26101BD2003FEEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821AA94626101BD2003FEEEF;
+			remoteInfo = TVFit;
+		};
+		821AA96426101BD5003FEEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821AA93F26101BD2003FEEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821AA94626101BD2003FEEEF;
+			remoteInfo = TVFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56A57C6C26240EEE00A47A84 /* TS55.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS55.usdz; path = "../../../Models Good/TS55.usdz"; sourceTree = "<group>"; };
+		56A57C6D26240EEE00A47A84 /* TS80.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS80.usdz; path = "../../../Models Good/TS80.usdz"; sourceTree = "<group>"; };
+		56A57C6E26240EEE00A47A84 /* TS40.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS40.usdz; path = "../../../Models Good/TS40.usdz"; sourceTree = "<group>"; };
+		56A57C6F26240EEE00A47A84 /* WM60.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM60.usdz; path = "../../../Models Good/WM60.usdz"; sourceTree = "<group>"; };
+		56A57C7026240EEE00A47A84 /* WM65.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM65.usdz; path = "../../../Models Good/WM65.usdz"; sourceTree = "<group>"; };
+		56A57C7126240EEE00A47A84 /* WM55.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM55.usdz; path = "../../../Models Good/WM55.usdz"; sourceTree = "<group>"; };
+		56A57C7226240EEE00A47A84 /* WM80.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM80.usdz; path = "../../../Models Good/WM80.usdz"; sourceTree = "<group>"; };
+		56A57C7426240EEE00A47A84 /* TS70.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS70.usdz; path = "../../../Models Good/TS70.usdz"; sourceTree = "<group>"; };
+		56A57C7526240EEE00A47A84 /* WM43.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM43.usdz; path = "../../../Models Good/WM43.usdz"; sourceTree = "<group>"; };
+		56A57C7626240EEE00A47A84 /* TS65.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS65.usdz; path = "../../../Models Good/TS65.usdz"; sourceTree = "<group>"; };
+		56A57C7726240EEE00A47A84 /* TS50.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS50.usdz; path = "../../../Models Good/TS50.usdz"; sourceTree = "<group>"; };
+		56A57C7926240EEE00A47A84 /* WM32.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM32.usdz; path = "../../../Models Good/WM32.usdz"; sourceTree = "<group>"; };
+		56A57C7A26240EEE00A47A84 /* WM70.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM70.usdz; path = "../../../Models Good/WM70.usdz"; sourceTree = "<group>"; };
+		56A57C7B26240EEE00A47A84 /* TS60.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS60.usdz; path = "../../../Models Good/TS60.usdz"; sourceTree = "<group>"; };
+		56A57C7C26240EEE00A47A84 /* WM40.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM40.usdz; path = "../../../Models Good/WM40.usdz"; sourceTree = "<group>"; };
+		56A57C7D26240EEE00A47A84 /* WM50.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = WM50.usdz; path = "../../../Models Good/WM50.usdz"; sourceTree = "<group>"; };
+		56A57C992624E1C700A47A84 /* TS43.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS43.usdz; path = "../../../Models Good/TS43.usdz"; sourceTree = "<group>"; };
+		56A57C9A2624E1C700A47A84 /* TS32.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = TS32.usdz; path = "../../../Models Good/TS32.usdz"; sourceTree = "<group>"; };
+		56CD3DFA262158B2004CDD79 /* MenuHelperViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHelperViews.swift; sourceTree = "<group>"; };
+		56D9078A2620F8C100860ABF /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		821AA94726101BD2003FEEEF /* TVFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821AA94A26101BD2003FEEEF /* TVFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVFitApp.swift; sourceTree = "<group>"; };
+		821AA94C26101BD2003FEEEF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		821AA94E26101BD4003FEEEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821AA95126101BD4003FEEEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		821AA95326101BD4003FEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821AA95826101BD5003FEEEF /* TVFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821AA95C26101BD5003FEEEF /* TVFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVFitTests.swift; sourceTree = "<group>"; };
+		821AA95E26101BD5003FEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821AA96326101BD5003FEEEF /* TVFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821AA96726101BD5003FEEEF /* TVFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVFitUITests.swift; sourceTree = "<group>"; };
+		821AA96926101BD5003FEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821BF37D26152984001D865B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		821BF38E26156405001D865B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		822919B82617DBCB00C9660D /* FocusARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusARView.swift; sourceTree = "<group>"; };
+		82374EC9261EDA300001287E /* ManualTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualTutorialView.swift; sourceTree = "<group>"; };
+		82374ED1261EDA450001287E /* ManualARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualARView.swift; sourceTree = "<group>"; };
+		82374EDC261EDF9F0001287E /* TutorialHelperViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialHelperViews.swift; sourceTree = "<group>"; };
+		82374EE7261EE1050001287E /* ARHelperViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHelperViews.swift; sourceTree = "<group>"; };
+		82374EFD261EE1E90001287E /* ARScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScreen.swift; sourceTree = "<group>"; };
+		8247AA52261025A9001560CA /* AutoTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTutorialView.swift; sourceTree = "<group>"; };
+		8247AA74261296F9001560CA /* AutoARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoARView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821AA94426101BD2003FEEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82374EB5261ECCD20001287E /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821AA95526101BD5003FEEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821AA96026101BD5003FEEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56CD3E052621591B004CDD79 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				82374EDC261EDF9F0001287E /* TutorialHelperViews.swift */,
+				82374EE7261EE1050001287E /* ARHelperViews.swift */,
+				822919D42617F44800C9660D /* Automatic */,
+				82374EBF261ED94E0001287E /* Manual */,
+			);
+			path = Modes;
+			sourceTree = "<group>";
+		};
+		821AA93E26101BD2003FEEEF = {
+			isa = PBXGroup;
+			children = (
+				821AA94926101BD2003FEEEF /* TVFit */,
+				821AA95B26101BD5003FEEEF /* TVFitTests */,
+				821AA96626101BD5003FEEEF /* TVFitUITests */,
+				821AA94826101BD2003FEEEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		821AA94826101BD2003FEEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821AA94726101BD2003FEEEF /* TVFit.app */,
+				821AA95826101BD5003FEEEF /* TVFitTests.xctest */,
+				821AA96326101BD5003FEEEF /* TVFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821AA94926101BD2003FEEEF /* TVFit */ = {
+			isa = PBXGroup;
+			children = (
+				821AA94A26101BD2003FEEEF /* TVFitApp.swift */,
+				821BF38E26156405001D865B /* Settings.swift */,
+				56D9078A2620F8C100860ABF /* Controller.swift */,
+				822919D02617F41100C9660D /* Menu */,
+				56CD3E052621591B004CDD79 /* Modes */,
+				82374EFC261EE1C10001287E /* AR */,
+				821AA94E26101BD4003FEEEF /* Assets.xcassets */,
+				8247AAB82612BD7A001560CA /* Models */,
+				821AA95326101BD4003FEEEF /* Info.plist */,
+				821AA95026101BD4003FEEEF /* Preview Content */,
+			);
+			path = TVFit;
+			sourceTree = "<group>";
+		};
+		821AA95026101BD4003FEEEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				821AA95126101BD4003FEEEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		821AA95B26101BD5003FEEEF /* TVFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				821AA95C26101BD5003FEEEF /* TVFitTests.swift */,
+				821AA95E26101BD5003FEEEF /* Info.plist */,
+			);
+			path = TVFitTests;
+			sourceTree = "<group>";
+		};
+		821AA96626101BD5003FEEEF /* TVFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				821AA96726101BD5003FEEEF /* TVFitUITests.swift */,
+				821AA96926101BD5003FEEEF /* Info.plist */,
+			);
+			path = TVFitUITests;
+			sourceTree = "<group>";
+		};
+		822919D02617F41100C9660D /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				821AA94C26101BD2003FEEEF /* MenuView.swift */,
+				56CD3DFA262158B2004CDD79 /* MenuHelperViews.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		822919D42617F44800C9660D /* Automatic */ = {
+			isa = PBXGroup;
+			children = (
+				8247AA52261025A9001560CA /* AutoTutorialView.swift */,
+				8247AA74261296F9001560CA /* AutoARView.swift */,
+			);
+			name = Automatic;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		82374EBF261ED94E0001287E /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				82374EC9261EDA300001287E /* ManualTutorialView.swift */,
+				82374ED1261EDA450001287E /* ManualARView.swift */,
+			);
+			name = Manual;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		82374EFC261EE1C10001287E /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				822919B82617DBCB00C9660D /* FocusARView.swift */,
+				821BF37D26152984001D865B /* Model.swift */,
+				82374EFD261EE1E90001287E /* ARScreen.swift */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
+		8247AAB82612BD7A001560CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56A57C9A2624E1C700A47A84 /* TS32.usdz */,
+				56A57C992624E1C700A47A84 /* TS43.usdz */,
+				56A57C6E26240EEE00A47A84 /* TS40.usdz */,
+				56A57C7726240EEE00A47A84 /* TS50.usdz */,
+				56A57C6C26240EEE00A47A84 /* TS55.usdz */,
+				56A57C7B26240EEE00A47A84 /* TS60.usdz */,
+				56A57C7626240EEE00A47A84 /* TS65.usdz */,
+				56A57C7426240EEE00A47A84 /* TS70.usdz */,
+				56A57C6D26240EEE00A47A84 /* TS80.usdz */,
+				56A57C7926240EEE00A47A84 /* WM32.usdz */,
+				56A57C7C26240EEE00A47A84 /* WM40.usdz */,
+				56A57C7526240EEE00A47A84 /* WM43.usdz */,
+				56A57C7D26240EEE00A47A84 /* WM50.usdz */,
+				56A57C7126240EEE00A47A84 /* WM55.usdz */,
+				56A57C6F26240EEE00A47A84 /* WM60.usdz */,
+				56A57C7026240EEE00A47A84 /* WM65.usdz */,
+				56A57C7A26240EEE00A47A84 /* WM70.usdz */,
+				56A57C7226240EEE00A47A84 /* WM80.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821AA94626101BD2003FEEEF /* TVFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821AA96C26101BD5003FEEEF /* Build configuration list for PBXNativeTarget "TVFit" */;
+			buildPhases = (
+				821AA94326101BD2003FEEEF /* Sources */,
+				821AA94426101BD2003FEEEF /* Frameworks */,
+				821AA94526101BD2003FEEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVFit;
+			packageProductDependencies = (
+				82374EB4261ECCD20001287E /* FocusEntity */,
+			);
+			productName = TVFit;
+			productReference = 821AA94726101BD2003FEEEF /* TVFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821AA95726101BD5003FEEEF /* TVFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821AA96F26101BD5003FEEEF /* Build configuration list for PBXNativeTarget "TVFitTests" */;
+			buildPhases = (
+				821AA95426101BD5003FEEEF /* Sources */,
+				821AA95526101BD5003FEEEF /* Frameworks */,
+				821AA95626101BD5003FEEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821AA95A26101BD5003FEEEF /* PBXTargetDependency */,
+			);
+			name = TVFitTests;
+			productName = TVFitTests;
+			productReference = 821AA95826101BD5003FEEEF /* TVFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		821AA96226101BD5003FEEEF /* TVFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821AA97226101BD5003FEEEF /* Build configuration list for PBXNativeTarget "TVFitUITests" */;
+			buildPhases = (
+				821AA95F26101BD5003FEEEF /* Sources */,
+				821AA96026101BD5003FEEEF /* Frameworks */,
+				821AA96126101BD5003FEEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821AA96526101BD5003FEEEF /* PBXTargetDependency */,
+			);
+			name = TVFitUITests;
+			productName = TVFitUITests;
+			productReference = 821AA96326101BD5003FEEEF /* TVFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821AA93F26101BD2003FEEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					821AA94626101BD2003FEEEF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					821AA95726101BD5003FEEEF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 821AA94626101BD2003FEEEF;
+					};
+					821AA96226101BD5003FEEEF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 821AA94626101BD2003FEEEF;
+					};
+				};
+			};
+			buildConfigurationList = 821AA94226101BD2003FEEEF /* Build configuration list for PBXProject "TVFit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821AA93E26101BD2003FEEEF;
+			packageReferences = (
+				82374EB3261ECCD20001287E /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 821AA94826101BD2003FEEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821AA94626101BD2003FEEEF /* TVFit */,
+				821AA95726101BD5003FEEEF /* TVFitTests */,
+				821AA96226101BD5003FEEEF /* TVFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821AA94526101BD2003FEEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A57C9C2624E1C700A47A84 /* TS32.usdz in Resources */,
+				56A57C8126240EEE00A47A84 /* WM60.usdz in Resources */,
+				56A57C8226240EEE00A47A84 /* WM65.usdz in Resources */,
+				56A57C8C26240EEE00A47A84 /* WM70.usdz in Resources */,
+				56A57C8726240EEE00A47A84 /* WM43.usdz in Resources */,
+				56A57C8026240EEE00A47A84 /* TS40.usdz in Resources */,
+				56A57C8626240EEE00A47A84 /* TS70.usdz in Resources */,
+				56A57C8D26240EEE00A47A84 /* TS60.usdz in Resources */,
+				821AA95226101BD4003FEEEF /* Preview Assets.xcassets in Resources */,
+				56A57C8E26240EEE00A47A84 /* WM40.usdz in Resources */,
+				56A57C8826240EEE00A47A84 /* TS65.usdz in Resources */,
+				56A57C8926240EEE00A47A84 /* TS50.usdz in Resources */,
+				56A57C8B26240EEE00A47A84 /* WM32.usdz in Resources */,
+				56A57C8F26240EEE00A47A84 /* WM50.usdz in Resources */,
+				56A57C7E26240EEE00A47A84 /* TS55.usdz in Resources */,
+				56A57C8426240EEE00A47A84 /* WM80.usdz in Resources */,
+				821AA94F26101BD4003FEEEF /* Assets.xcassets in Resources */,
+				56A57C8326240EEE00A47A84 /* WM55.usdz in Resources */,
+				56A57C9B2624E1C700A47A84 /* TS43.usdz in Resources */,
+				56A57C7F26240EEE00A47A84 /* TS80.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821AA95626101BD5003FEEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821AA96126101BD5003FEEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821AA94326101BD2003FEEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D9078B2620F8C100860ABF /* Controller.swift in Sources */,
+				8247AA53261025A9001560CA /* AutoTutorialView.swift in Sources */,
+				821AA94D26101BD2003FEEEF /* MenuView.swift in Sources */,
+				56CD3DFB262158B2004CDD79 /* MenuHelperViews.swift in Sources */,
+				821AA94B26101BD2003FEEEF /* TVFitApp.swift in Sources */,
+				821BF38F26156405001D865B /* Settings.swift in Sources */,
+				822919B92617DBCB00C9660D /* FocusARView.swift in Sources */,
+				8247AA75261296F9001560CA /* AutoARView.swift in Sources */,
+				82374EDD261EDF9F0001287E /* TutorialHelperViews.swift in Sources */,
+				82374EFE261EE1E90001287E /* ARScreen.swift in Sources */,
+				821BF37E26152984001D865B /* Model.swift in Sources */,
+				82374ED2261EDA450001287E /* ManualARView.swift in Sources */,
+				82374ECA261EDA300001287E /* ManualTutorialView.swift in Sources */,
+				82374EE8261EE1050001287E /* ARHelperViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821AA95426101BD5003FEEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821AA95D26101BD5003FEEEF /* TVFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821AA95F26101BD5003FEEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821AA96826101BD5003FEEEF /* TVFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821AA95A26101BD5003FEEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821AA94626101BD2003FEEEF /* TVFit */;
+			targetProxy = 821AA95926101BD5003FEEEF /* PBXContainerItemProxy */;
+		};
+		821AA96526101BD5003FEEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821AA94626101BD2003FEEEF /* TVFit */;
+			targetProxy = 821AA96426101BD5003FEEEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		821AA96A26101BD5003FEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		821AA96B26101BD5003FEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		821AA96D26101BD5003FEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TVFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 6N3CP34ZJA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TVFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadeYouLoook.TVFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		821AA96E26101BD5003FEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TVFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 6N3CP34ZJA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TVFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadeYouLoook.TVFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		821AA97026101BD5003FEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MadeYouLoook.TVFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVFit.app/TVFit";
+			};
+			name = Debug;
+		};
+		821AA97126101BD5003FEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MadeYouLoook.TVFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVFit.app/TVFit";
+			};
+			name = Release;
+		};
+		821AA97326101BD5003FEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MadeYouLoook.TVFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVFit;
+			};
+			name = Debug;
+		};
+		821AA97426101BD5003FEEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TVFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MadeYouLoook.TVFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TVFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821AA94226101BD2003FEEEF /* Build configuration list for PBXProject "TVFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821AA96A26101BD5003FEEEF /* Debug */,
+				821AA96B26101BD5003FEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821AA96C26101BD5003FEEEF /* Build configuration list for PBXNativeTarget "TVFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821AA96D26101BD5003FEEEF /* Debug */,
+				821AA96E26101BD5003FEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821AA96F26101BD5003FEEEF /* Build configuration list for PBXNativeTarget "TVFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821AA97026101BD5003FEEEF /* Debug */,
+				821AA97126101BD5003FEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821AA97226101BD5003FEEEF /* Build configuration list for PBXNativeTarget "TVFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821AA97326101BD5003FEEEF /* Debug */,
+				821AA97426101BD5003FEEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		82374EB3261ECCD20001287E /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		82374EB4261ECCD20001287E /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82374EB3261ECCD20001287E /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 821AA93F26101BD2003FEEEF /* Project object */;
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BDCD3B6C-50FD-4FA2-8B7D-7B1E9A95CE9F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAF7B0B1-82A0-496A-B557-14F22F35D31C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVFit/AutoTutorialView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0842866-48A6-4B76-8A2F-2A0C16DEDA67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVFit/ARScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "updateScene(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0842866-48A6-4B76-8A2F-2A0C16DEDA67 - e03b70b46b5a05fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVFit.ARViewContainer.updateScene(for: TVFit.FocusARView) -&gt; ()"
+                  moduleName = "TVFit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anderstai/Documents/Coding/TVFit/Archives/TVFit%201.0%204/TVFit/TVFit/ARScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "6256">
+               </Location>
+               <Location
+                  uuid = "C0842866-48A6-4B76-8A2F-2A0C16DEDA67 - e03b70b46b5a05fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVFit.ARViewContainer.updateScene(for: TVFit.FocusARView) -&gt; ()"
+                  moduleName = "TVFit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anderstai/Documents/Coding/TVFit/Archives/TVFit%201.0%204/TVFit/TVFit/ARScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "6316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFB8D05A-E90F-497C-93FC-61E4052D2996"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVFit/ARScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "updateScene(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AFB8D05A-E90F-497C-93FC-61E4052D2996 - e03b70b46b5a05bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVFit.ARViewContainer.updateScene(for: TVFit.FocusARView) -&gt; ()"
+                  moduleName = "TVFit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anderstai/Documents/Coding/TVFit/Archives/TVFit%201.0%204/TVFit/TVFit/ARScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "6348">
+               </Location>
+               <Location
+                  uuid = "AFB8D05A-E90F-497C-93FC-61E4052D2996 - e03b70b46b5a05bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TVFit.ARViewContainer.updateScene(for: TVFit.FocusARView) -&gt; ()"
+                  moduleName = "TVFit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anderstai/Documents/Coding/TVFit/Archives/TVFit%201.0%204/TVFit/TVFit/ARScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "6516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9AB9CCF-702A-4F0B-9C9C-466C7B1CE759"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVFit/ARScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "updateScene(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "00A73738-40CE-4109-ACA2-E799B84A6531"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TVFit/ARScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "updateScene(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
